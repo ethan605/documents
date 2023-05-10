@@ -1,0 +1,3 @@
+# LateX
+tex/**/*
+!tex/*.tex

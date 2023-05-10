@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  make:
+    image: ethan605/texlive:documents
+    build: .
+    environment:
+      - ENTRYPOINT
+    container_name: make_documents
+    command: xelatex "$ENTRYPOINT"
+    volumes:
+      - ./tex:/app/data
