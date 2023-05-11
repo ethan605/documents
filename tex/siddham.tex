@@ -1,20 +1,48 @@
 \newfontfamily\notosanssiddham{Noto Sans Siddham}[Script=Siddham, Scale=1.5]
 \newcommand{\siddham}[1]{{\huge\notosanssiddham{\symbol{"#1}}}}
 
+% Transliteration
+\newcommand{\amacron}{\symbol{"0101}} % ā
+\newcommand{\hdot}{\symbol{"1E25}} % ḥ
+\newcommand{\mdot}{\symbol{"1E43}} % ṃ
+\newcommand{\Sacute}{\symbol{"015A}} % Ś
+\newcommand{\sacute}{\symbol{"015B}} % ś
+
 % Diacritics
+\newcommand{\Aa}{\siddham{115AF}} % ā
+\newcommand{\anusvara}{\siddham{115BD}} % ṁ
 \newcommand{\chandrabindu}{\siddham{115BC}} % m̐
 \newcommand{\visarga}{\siddham{115BE}} % ḥ
-\newcommand{\om}{\siddham{1158C}\chandrabindu}
 
-\newcommand{\ah}{\siddham{11580}}
-\newcommand{\bhu}{\siddham{115A5}\siddham{115B2}}
-\newcommand{\dhaa}{\siddham{115A0}\siddham{115AF}}
-\newcommand{\dha}{\siddham{115A0}}
-\newcommand{\ga}{\siddham{11590}}
-\newcommand{\haa}{\siddham{115AE}\siddham{115AF}}
-\newcommand{\kha}{\siddham{1158F}}
-\newcommand{\nuu}{\siddham{115A1}\siddham{115B2}}
-\newcommand{\rma}{\siddham{115A8}\siddham{115BF}\siddham{115A6}}
-\newcommand{\svaa}{\siddham{115AD}\siddham{115BF}\siddham{115AA}\siddham{115AF}}
-\newcommand{\ta}{\siddham{1159D}}
-\newcommand{\tu}{\siddham{1159D}\siddham{115B2}}
+\newcommand{\A}{\siddham{11580}}
+\newcommand{\Bha}{\siddham{115A5}}
+\newcommand{\Bhu}{\siddham{115A5}\siddham{115B2}}
+\newcommand{\Bu}{\siddham{115A4}\siddham{115B2}}
+\newcommand{\Ddhaa}{\siddham{1159F}\siddham{115BF}\siddham{115A0}\Aa}
+\newcommand{\Dhaa}{\siddham{115A0}\Aa}
+\newcommand{\Dha}{\siddham{115A0}}
+\newcommand{\Ga}{\siddham{11590}}
+\newcommand{\Haa}{\siddham{115AE}\Aa}
+\newcommand{\Kha}{\siddham{1158F}}
+\newcommand{\Ksa}{\siddham{1158E}\siddham{115BF}\siddham{115AD}}
+\newcommand{\Kya}{\siddham{1158E}\siddham{115BF}\Ya}
+\newcommand{\Mo}{\siddham{115A6}\siddham{115BA}}
+\newcommand{\Mu}{\siddham{115A6}\siddham{115B2}}
+\newcommand{\Mya}{\siddham{115A6}\siddham{115BF}\Ya}
+\newcommand{\Na}{\siddham{115A1}}
+\newcommand{\Niye}{\siddham{115A1}\siddham{115B0}\Ya\siddham{115B8}}
+\newcommand{\Nu}{\siddham{115A1}\siddham{115B2}}
+\newcommand{\Om}{\siddham{1158C}\chandrabindu}
+\newcommand{\Ra}{\siddham{115A8}}
+\newcommand{\Rha}{\Ra\siddham{115BF}\siddham{115AE}}
+\newcommand{\Rma}{\siddham{115A8}\siddham{115BF}\siddham{115A6}}
+\newcommand{\Sa}{\siddham{115AD}}
+\newcommand{\Ssa}{\siddham{115AB}}
+\newcommand{\Svaa}{\siddham{115AD}\siddham{115BF}\siddham{115AA}\Aa}
+\newcommand{\Taa}{\siddham{1159D}\Aa}
+\newcommand{\Ta}{\siddham{1159D}}
+\newcommand{\Te}{\siddham{1159D}\siddham{115B8}}
+\newcommand{\Thaa}{\siddham{1159E}\Aa}
+\newcommand{\Tu}{\siddham{1159D}\siddham{115B2}}
+\newcommand{\Va}{\siddham{115AA}}
+\newcommand{\Ya}{\siddham{115A7}}
