@@ -3,96 +3,118 @@
 
 % Transliteration
 \newcommand{\AMacron}{\symbol{"0100}} % Ā
+\newcommand{\SAcute}{\symbol{"015A}} % Ś
 \newcommand{\aMacron}{\symbol{"0101}} % ā
 \newcommand{\hDot}{\symbol{"1E25}} % ḥ
 \newcommand{\iMacron}{\symbol{"012B}} % ī
 \newcommand{\mDot}{\symbol{"1E43}} % ṃ
 \newcommand{\nDot}{\symbol{"1E47}} % ṇ
+\newcommand{\nTilde}{\symbol{"00F1}} % ñ
+\newcommand{\rDot}{\symbol{"1E5B}} % ṛ
+\newcommand{\sAcute}{\symbol{"015B}} % ś
+\newcommand{\sDot}{\symbol{"01E63}} % ṣ
 \newcommand{\tDot}{\symbol{"1E6D}} % ṭ
 \newcommand{\uMacron}{\symbol{"016B}} % ū
-\newcommand{\SAcute}{\symbol{"015A}} % Ś
-\newcommand{\sAcute}{\symbol{"015B}} % ś
 
 % Diacritics
-\newcommand{\Aa}{\siddham{115AF}} % ā
-\newcommand{\anusvara}{\siddham{115BD}} % ṁ
-\newcommand{\chandrabindu}{\siddham{115BC}} % m̐
-\newcommand{\visarga}{\siddham{115BE}} % ḥ
+\newcommand{\anusvara}{\siddham{115BD}}
+\newcommand{\chandrabindu}{\siddham{115BC}}
+\newcommand{\virama}{\siddham{115BF}}
+\newcommand{\visarga}{\siddham{115BE}}
+\newcommand{\Aa}{\siddham{115AF}}
+\newcommand{\Ai}{\siddham{115B9}}
 
+% Graphs
 \newcommand{\A}{\siddham{11580}}
 \newcommand{\Ba}{\siddham{115A4}}
+\newcommand{\Bhai}{\Bha\Ai}
 \newcommand{\Bha}{\siddham{115A5}}
-\newcommand{\Bhruu}{\siddham{115A5}\siddham{115BF}\siddham{115A8}\siddham{115B3}}
-\newcommand{\Bhu}{\siddham{115A5}\siddham{115B2}}
-\newcommand{\Bo}{\siddham{115A4}\siddham{115BA}}
-\newcommand{\Bu}{\siddham{115A4}\siddham{115B2}}
+\newcommand{\Bhruu}{\Bha\virama\siddham{115A8}\siddham{115B3}}
+\newcommand{\Bhu}{\Bha\siddham{115B2}}
+\newcommand{\Bo}{\Ba\siddham{115BA}}
+\newcommand{\Bu}{\Ba\siddham{115B2}}
 \newcommand{\Ca}{\siddham{11593}}
-\newcommand{\Cu}{\siddham{11593}\siddham{115B2}}
+\newcommand{\Cu}{\Ca\siddham{115B2}}
 \newcommand{\Da}{\siddham{1159F}}
-\newcommand{\Ddha}{\Da\siddham{115BF}\siddham{115A0}}
+\newcommand{\Ddha}{\Da\virama\siddham{115A0}}
+\newcommand{\Dga}{\Da\virama\siddham{11590}}
 \newcommand{\Dha}{\siddham{115A0}}
-\newcommand{\Dhi}{\siddham{115A0}\siddham{115B0}}
+\newcommand{\Dhi}{\Dha\siddham{115B0}}
 \newcommand{\Di}{\Da\siddham{115B0}}
-\newcommand{\Dme}{\Da\siddham{115BF}\siddham{115A6}\siddham{115B8}}
+\newcommand{\Dme}{\Da\virama\siddham{115A6}\siddham{115B8}}
 \newcommand{\Ga}{\siddham{11590}}
 \newcommand{\Gha}{\siddham{11591}}
 \newcommand{\Ha}{\siddham{115AE}}
-\newcommand{\Huu}{\siddham{115AE}\siddham{115B3}}
+\newcommand{\Hrr}{\Ha\siddham{115B4}}
+\newcommand{\Huu}{\Ha\siddham{115B3}}
 \newcommand{\I}{\siddham{11582}}
-\newcommand{\Jra}{\siddham{11595}\siddham{115BF}\siddham{115A8}}
+\newcommand{\Ja}{\siddham{11595}}
+\newcommand{\Jnnaa}{\Ja\virama\siddham{11597}\siddham{115AF}}
+\newcommand{\Jra}{\Ja\virama\siddham{115A8}}
+\newcommand{\Jya}{\Ja\virama\siddham{115A7}}
+\newcommand{\Jye}{\Jya\siddham{115B8}}
 \newcommand{\Ka}{\siddham{1158E}}
 \newcommand{\Kha}{\siddham{1158F}}
-\newcommand{\Ki}{\siddham{1158E}\siddham{115B0}}
-\newcommand{\Kra}{\siddham{1158E}\siddham{115BF}\siddham{115A8}}
-\newcommand{\Ksa}{\siddham{1158E}\siddham{115BF}\siddham{115AD}}
-\newcommand{\Kya}{\siddham{1158E}\siddham{115BF}\Ya}
+\newcommand{\Ki}{\Ka\siddham{115B0}}
+\newcommand{\Kra}{\Ka\virama\siddham{115A8}}
+\newcommand{\Ksa}{\Ka\virama\Sa}
+\newcommand{\Kya}{\Ka\virama\Ya}
 \newcommand{\La}{\siddham{115A9}}
-\newcommand{\Le}{\siddham{115A9}\siddham{115B8}}
-\newcommand{\Lo}{\siddham{115A9}\siddham{115BA}}
+\newcommand{\Le}{\La\siddham{115B8}}
+\newcommand{\Lo}{\La\siddham{115BA}}
 \newcommand{\Ma}{\siddham{115A6}}
-\newcommand{\Mo}{\siddham{115A6}\siddham{115BA}}
-\newcommand{\Mu}{\siddham{115A6}\siddham{115B2}}
-\newcommand{\Mya}{\siddham{115A6}\siddham{115BF}\Ya}
+\newcommand{\Mi}{\Ma\siddham{115B0}}
+\newcommand{\Mo}{\Ma\siddham{115BA}}
+\newcommand{\Mu}{\Ma\siddham{115B2}}
+\newcommand{\Mya}{\Ma\virama\Ya}
 \newcommand{\Na}{\siddham{115A1}}
-\newcommand{\Ndha}{\siddham{115A1}\siddham{115BF}\siddham{115A0}}
+\newcommand{\Ndha}{\Na\virama\siddham{115A0}}
 \newcommand{\Ndhe}{\Ndha\siddham{115B8}}
-\newcommand{\Nii}{\siddham{115A1}\siddham{115B1}}
-\newcommand{\Niye}{\siddham{115A1}\siddham{115B0}\Ya\siddham{115B8}}
-\newcommand{\Ni}{\siddham{115A1}\siddham{115B0}}
-\newcommand{\Nnga}{\siddham{11592}\siddham{115BF}\siddham{11590}}
-\newcommand{\Nnii}{\siddham{1159C}\siddham{115B1}}
-\newcommand{\Nni}{\siddham{1159C}\siddham{115B0}}
-\newcommand{\Nnttha}{\siddham{1159C}\siddham{115BF}\siddham{11599}}
-\newcommand{\Ntra}{\siddham{115A1}\siddham{115BF}\siddham{1159D}\siddham{115BF}\siddham{115A8}}
+\newcommand{\Nii}{\Na\siddham{115B1}}
+\newcommand{\Niye}{\Na\siddham{115B0}\Ya\siddham{115B8}}
+\newcommand{\Ni}{\Na\siddham{115B0}}
+\newcommand{\Nna}{\siddham{1159C}}
+\newcommand{\Nnga}{\siddham{11592}\virama\siddham{11590}}
+\newcommand{\Nnii}{\Nna\siddham{115B1}}
+\newcommand{\Nni}{\Nna\siddham{115B0}}
+\newcommand{\Nnttha}{\Nna\virama\siddham{11599}}
+\newcommand{\Ntra}{\siddham{115A1}\virama\siddham{1159D}\virama\siddham{115A8}}
 \newcommand{\Nu}{\siddham{115A1}\siddham{115B2}}
 \newcommand{\Pa}{\siddham{115A2}}
+\newcommand{\Phatt}{\Pha\siddham{11598}\virama}
 \newcommand{\Pha}{\siddham{115A3}}
-\newcommand{\Phatt}{\Pha\siddham{11598}\siddham{115BF}}
-\newcommand{\Ppi}{\siddham{115A2}\siddham{115B0}}
+\newcommand{\Ppi}{\Pa\siddham{115B0}}
+\newcommand{\Pra}{\Pa\virama\siddham{115A8}}
 \newcommand{\Ra}{\siddham{115A8}}
-\newcommand{\Rha}{\Ra\siddham{115BF}\siddham{115AE}}
-\newcommand{\Rma}{\siddham{115A8}\siddham{115BF}\siddham{115A6}}
-\newcommand{\Rre}{\siddham{115A8}\siddham{115B8}}
+\newcommand{\Rha}{\Ra\virama\siddham{115AE}}
+\newcommand{\Rma}{\Rha\virama\siddham{115A6}}
+\newcommand{\Rre}{\Rha\siddham{115B8}}
+\newcommand{\Sai}{\Sa\Ai}
 \newcommand{\Sa}{\siddham{115AD}}
-\newcommand{\Sma}{\siddham{115AD}\siddham{115BF}\siddham{115A6}}
-\newcommand{\So}{\siddham{115AD}\siddham{115BA}}
-\newcommand{\Ssa}{\siddham{115AB}}
-\newcommand{\Ssrhyi}{\siddham{115AB}\siddham{115BF}\siddham{115A8}\siddham{115BF}\siddham{115AE}\siddham{115BF}\siddham{115A7}\siddham{115B0}}
-\newcommand{\Ssuu}{\siddham{115AB}\siddham{115B3}}
-\newcommand{\Sva}{\siddham{115AD}\siddham{115BF}\siddham{115AA}}
+\newcommand{\Sha}{\siddham{115AB}}
+\newcommand{\Shrhyi}{\Sha\virama\siddham{115A8}\virama\siddham{115AE}\virama\siddham{115A7}\siddham{115B0}}
+\newcommand{\Shuu}{\Sha\siddham{115B3}}
+\newcommand{\Sma}{\Sa\virama\siddham{115A6}}
+\newcommand{\So}{\Sa\siddham{115BA}}
+\newcommand{\Ssa}{\siddham{115AC}}
+\newcommand{\Ss}{\Ssa\virama}
+\newcommand{\Suu}{\Sa\siddham{115B3}}
+\newcommand{\Sva}{\Sa\virama\siddham{115AA}}
 \newcommand{\Ta}{\siddham{1159D}}
-\newcommand{\Te}{\siddham{1159D}\siddham{115B8}}
+\newcommand{\Te}{\Ta\siddham{115B8}}
 \newcommand{\Tha}{\siddham{1159E}}
-\newcommand{\Ti}{\siddham{1159D}\siddham{115B0}}
-\newcommand{\Truu}{\siddham{1159D}\siddham{115BF}\siddham{115A8}\siddham{115B3}}
-\newcommand{\Tta}{\siddham{1159D}\siddham{115BF}\siddham{1159D}}
-\newcommand{\Ttva}{\Tta\siddham{115BF}\siddham{115AA}}
-\newcommand{\Tu}{\siddham{1159D}\siddham{115B2}}
-\newcommand{\Tva}{\siddham{1159D}\siddham{115BF}\siddham{115AA}}
+\newcommand{\Ti}{\Ta\siddham{115B0}}
+\newcommand{\Tra}{\Ta\virama\siddham{115A8}}
+\newcommand{\Truu}{\Tra\siddham{115B3}}
+\newcommand{\Tta}{\Ta\virama\Ta}
+\newcommand{\Ttva}{\Tta\virama\siddham{115AA}}
+\newcommand{\Tu}{\Ta\siddham{115B2}}
+\newcommand{\Tva}{\Ta\virama\siddham{115AA}}
+\newcommand{\U}{\siddham{11584}}
 \newcommand{\Va}{\siddham{115AA}}
-\newcommand{\Vi}{\siddham{115AA}\siddham{115B0}}
+\newcommand{\Vi}{\Va\siddham{115B0}}
 \newcommand{\Ya}{\siddham{115A7}}
-\newcommand{\Ye}{\siddham{115A7}\siddham{115B8}}
+\newcommand{\Ye}{\Ya\siddham{115B8}}
 
 % Common multi-graphs
 \newcommand{\Om}{\siddham{1158C}\chandrabindu}
